@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>8</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Mapping\AutoMapper\FinancialMapping\**" />
+    <EmbeddedResource Remove="Mapping\AutoMapper\FinancialMapping\**" />
+    <None Remove="Mapping\AutoMapper\FinancialMapping\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.0" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Castle.FactorySupportFacility" Version="4.1.1" />
+    <PackageReference Include="CloudinaryDotNet" Version="1.15.2" />
+    <PackageReference Include="FluentValidation" Version="10.2.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\Entity\Entity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Http">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Http.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

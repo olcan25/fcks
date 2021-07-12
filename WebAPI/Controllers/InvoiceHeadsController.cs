@@ -1,0 +1,46 @@
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Business.Abstract.Service;
+
+namespace WebAPI.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class InvoiceHeadsController : ControllerBase
+    {
+        private readonly IInvoiceService _invoiceService;
+
+        public InvoiceHeadsController(IInvoiceService invoiceService)
+        {
+            _invoiceService = invoiceService;
+        }
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var result = _invoiceService.GetAllInvoiceLines();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result.Message);
+        }
+
+        [HttpGet("id/{id}")]
+        public IActionResult GetById(int id)
+        {
+            var result = _invoiceService.GetByIdInvoiceHead(id);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result.Message);
+        }
+    }
+}

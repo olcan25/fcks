@@ -1,0 +1,12 @@
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\bin\Debug\netstandard2.1\Core.dll
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\obj\Debug\netstandard2.1\Entity.csproj.CopyComplete
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\obj\Debug\netstandard2.1\Entity.dll
+C:\Users\olcan\source\repos\olcan123\fcks\Entity\obj\Debug\netstandard2.1\Entity.pdb
